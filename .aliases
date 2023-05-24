@@ -1,0 +1,36 @@
+### ALIASES ###
+
+# list
+alias ls='ls --color=auto'
+alias la='ls -a'
+
+
+# pacman
+alias update='sudo pacman -Syy --color auto'
+alias upgrade='sudo pacman -Syyuu --noconfirm --color auto'
+alias search='sudo pacman -Ss --color auto'
+alias remove='sudo pacman -R --color auto'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# pacman unlock
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
+
+# free
+alias free="free -mt"
+
+# continue download
+alias wget="wget -c"
+
+#a dd new fonts
+alias font-reload='sudo fc-cache -fv'
+
+# Systemd
+alias disable='sudo systemctl disable'
+alias enable='sudo systemctl enable'
+alias stop='sudo systemctl stop'
+alias start='sudo systemctl start'
