@@ -38,6 +38,13 @@ sudo cp $HOME/.dotfiles/sudoers /etc/sudoers
 ln -s $HOME/.dotfiles/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 ```
 
+> Configurando shell bash
+
+```bash
+ln -s $HOME/.dotfiles/.bash_logout $HOME/.bash_logout
+ln -s $HOME/.dotfiles/.bash_profile $HOME/.bash_profile
+```
+
 ## Criador
 
 <div>
