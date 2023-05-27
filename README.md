@@ -14,22 +14,28 @@ git clone https://github.com/akicodeoficial/dotfiles ~/.dotfiles
 cp git/.gitconfig.example .gitconfig
 ```
 
-### Configurando o Git
+> Configurando o Git
 
 ```bash
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 ```
 
-### Configurando nvm
+> Configurando nvm
 
 ```bash
 ln -s $HOME/.dotfiles/.nvmrc $HOME/.nvmrc
 ```
 
-### Exibir * ao invés da senha no terminal
+> Exibir * ao invés da senha no terminal
 
 ```bash
-sudo cp sudoers /etc/sudoers
+sudo cp $HOME/.dotfiles/sudoers /etc/sudoers
+```
+
+> Configurando o Terminal Alacritty
+
+```bash
+ln -s $HOME/.dotfiles/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 ```
 
 ## Criador
